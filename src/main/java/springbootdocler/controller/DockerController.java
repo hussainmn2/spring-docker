@@ -10,7 +10,7 @@ public class DockerController {
 
 	@GetMapping("/getDummy")
 	public String getDockerDummyMessage() {
-		return "## Welcome to Docker Application";
+		return "## Welcome to Docker Application + get commit";
 
 	}
 
