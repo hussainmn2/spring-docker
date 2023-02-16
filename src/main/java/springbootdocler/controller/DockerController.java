@@ -14,4 +14,10 @@ public class DockerController {
 
 	}
 
+	@GetMapping("/getGit")
+	public String getGitHubDummyMessage() {
+		return "Welcome Message From Git Demo Repo";
+
+	}
+
 }
